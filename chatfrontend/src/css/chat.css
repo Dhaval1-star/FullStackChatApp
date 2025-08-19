@@ -1,0 +1,83 @@
+.chat-header {
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--border);
+}
+
+.chat-div {
+    height: 100vh;
+}
+
+.users-div {
+    border-right: 1px solid var(--border);
+}
+
+.users-div .search-inp::placeholder {
+    color: var(--text-placeholder);
+}
+
+.users-div input {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+}
+
+.users-div input:focus {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+    border-color: var(--border);
+}
+
+.selected {
+    background-color: var(--text-placeholder) !important;
+}
+
+#userList {
+    height: 74%;
+    list-style: none;
+    padding: 0px !important;
+}
+
+#userList li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.login-user {
+    padding: 10px;
+    background-color: var(--text-placeholder) !important;
+}
+
+.chat-name {
+    border-bottom: 1px solid var(--border);
+    padding: 15px;
+    font-weight: bold;
+}
+
+.chat-div input::placeholder {
+    color: var(--text-placeholder);
+}
+
+.chat-div input {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+}
+
+.chat-div input:focus {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+    border-color: var(--border);
+}
+
+.send-btn {
+    background-color: var(--primary) !important;
+}
+
+.send-btn:hover {
+    background-color: var(--primary) !important;
+}
+
+.chat-messages {
+    overflow-y: auto;
+    min-height: 300px;
+    max-height: 83vh;
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 8px;
+}

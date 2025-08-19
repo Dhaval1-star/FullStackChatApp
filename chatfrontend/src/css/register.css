@@ -1,0 +1,39 @@
+.register-div {
+    width: 400px;
+}
+
+.register-div label {
+    color: var(--text-light);
+}
+
+.register-div .register-btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.register-div .register-btn:hover {
+    border-color: var(--primary);
+    background-color: var(--bg);
+}
+
+.register-div .login-link, .login-link a {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.login-link a {
+    text-decoration: none;
+} 
+
+.register-div input::placeholder {
+    color: var(--text-placeholder);
+}
+
+.register-div input {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+}
+
+.register-div input:focus {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+    border-color: var(--border);
+}

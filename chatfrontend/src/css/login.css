@@ -1,0 +1,38 @@
+.loginDiv {
+    width: 400px;
+}
+
+.loginDiv label {
+    color: var(--text-light);
+}
+
+.loginDiv .login-btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.loginDiv .login-btn:hover {
+    border-color: var(--primary);
+}
+
+.loginDiv .register-link, .register-link a {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.register-link a {
+    text-decoration: none;
+} 
+
+.loginDiv input::placeholder {
+    color: var(--text-placeholder);
+}
+
+.loginDiv input {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+}
+
+.loginDiv input:focus {
+    box-shadow: 2px 2px 2px 2px var(--shadow);
+    border-color: var(--border);
+}
